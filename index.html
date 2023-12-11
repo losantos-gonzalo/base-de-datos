@@ -1,61 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>One Page</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>Document</title>
-</head>
-
-<body>
-
+  <body>
     <header>
-        <nav class="navbar bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand">Navbar</a>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
-        </nav>
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand">Navbar</a>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <div class="card" style="width: 18rem;">
-            <img src="./img/waifu.jpg" class="card-img-top" alt="Mujer-de-anime">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+      <h2 class="main__title">Nuevo contenido para ti</h2>
+      <div class="main__primary-card">
+        <img src="./img/knight.jpg" class="img-fluid" alt="..." />
+        <div class="card">
+          <img
+            src="./img/icon-knight.png"
+            class="main__top-img-card"
+            alt="..."
+          />
+          <div class="main__card-body">
+            <p class="card-text">IMPERIOS III</p>
+            <h5 class="card-title">IMPERIOS III: Los imperios regresan</h5>
+            <p class="card-info">Incluye expansiones anteriores</p>
+            <h6 class="card-category">Estrategia</h6>
+            <p class="card-text price">DESDE 170.000,00 ARS</p>
           </div>
+        </div>
+      </div>
+      <div class="main__secondary-card">
+        <div class="card">
+          <img src="./img/war.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">¿CARLOS Y DUKY?</p>
+            <h5 class="card-title">Carlos y Duky: Oferta especial</h5>
+            <p class="card-info">Carlos y duky nunca supe como se escribia</p>
+            <h6 class="card-category">Disparos</h6>
+            <p class="card-text price">75.000,00 ARS</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/cows.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">SIMULADOR DE VACA</p>
+            <h5 class="card-title">Simulador de vaca: COMPRALO YA</h5>
+            <p class="card-info">
+              Quieres saber lo que se siente ser una vaca por un día? con este
+              maravilloso simulador lo podras saber por fin.
+            </p>
+            <h6 class="card-category">Simulador</h6>
+            <p class="card-text price">50.000,00 ARS</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/city.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">CONSTRUYE TU CIUDAD</p>
+            <h5 class="card-title">CONSTRUYE TU CIUDAD: Expansión</h5>
+            <p class="card-info">Ya disponible</p>
+            <h6 class="card-category">Construcción</h6>
+            <p class="card-text price">20.000,00 ARS</p>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer class="bg-dark text-light p-4 pieDePagina">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h5>@Losantos Gonzalo - Fran Aguirre</h5>
-                    <p>Dirección: 123 Calle Principal, Ciudad</p>
-                    <p>Email: info@example.com</p>
-                </div>
-                <div class="col-md-6 text-right">
-                    <h5>Síguenos en redes sociales</h5>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h5>@Losantos Gonzalo - Fran Aguirre</h5>
+            <p>Dirección: 123 Calle Principal, Ciudad</p>
+            <p>Email: info@example.com</p>
+          </div>
+          <div class="col-md-6 text-right">
+            <h5>Síguenos en redes sociales</h5>
+          </div>
         </div>
+      </div>
     </footer>
-
 
     <script src="./js/main.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
