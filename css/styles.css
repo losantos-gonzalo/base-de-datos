@@ -25,6 +25,7 @@ main {
 }
 
 .main__primary-card {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -41,6 +42,7 @@ main {
 }
 
 .card {
+  position: relative;
   width: 32%;
   height: 100%;
   --bs-card-border-width: none;
@@ -97,5 +99,19 @@ main {
 .card-body {
   background-color: var(--card-background-color);
   border-radius: 0 0 4px 4px;
+}
+
+.main__new-game {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+}
+
+.main__new-game > p {
+  font-weight: bold;
+  padding: 0 6px;
+  border-radius: 4px;
+  background-color: red;
+  color: white;
 }
 
