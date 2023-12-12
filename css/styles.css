@@ -14,6 +14,33 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+header {
+  width: calc(100vw -16px);
+  padding: 0 16px;
+}
+
+.navbar {
+  margin-bottom: 5vh;
+}
+
+.carousel {
+  height: 50vh;
+  margin-bottom: 5vh;
+}
+
+.carousel-inner, .carousel-item, .d-block {
+  height: 100%;
+}
+
+.carousel-inner {
+  border-radius: 4px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: 5%;
+}
+
 main {
   width: calc(100vw -16px);
   padding: 0 16px;
