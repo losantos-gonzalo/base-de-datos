@@ -1,168 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <title>One Page</title>
-  </head>
 
-  <body>
-    <header>
-      <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand">Navbar</a>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
-        </div>
-      </nav>
-      <div id="carouselExample" class="carousel slide">
-        <div class="carousel-indicators">
-          <svg xmlns="http://www.w3.org/2000/svg" height="16" width="12" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./img/guerrero.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/barco.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/robot.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/ave.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/soldado.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/lugar-abandonado.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/aventura.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>One Page</title>
+</head>
+
+<body>
+
+  <header>
+
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand">Navbar</a>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">
+            Search
+          </button>
+        </form>
       </div>
-    </header>
+    </nav>
 
-    <main>
-      <h2 class="main__title">Nuevo contenido para ti</h2>
-      <div class="main__primary-card">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-indicators">
+        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="12"
+          viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+          <path
+            d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+        </svg>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+      </div>
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="./img/guerrero.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/barco.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/robot.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/ave.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/soldado.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/lugar-abandonado.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/aventura.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>carousel-control-prev
+
+  <main>
+
+    <h2 class="main__title">Nuevo contenido para ti</h2>
+
+    <div class="main__primary-card">
+
+      <div class="main__new-game">
+        <p>NUEVO</p>
+      </div>
+      <img src="./img/knight.jpg" class="img-fluid" alt="..." />
+
+      <div class="card">
+        <img src="./img/icon-knight.png" class="main__top-img-card" alt="..." />
+        <div class="main__card-body">
+          <p class="card-text">IMPERIOS III</p>
+          <h5 class="card-title">IMPERIOS III: Los imperios regresan</h5>
+          <p class="card-info">Incluye expansiones anteriores</p>
+          <h6 class="card-category">Estrategia</h6>
+          <p class="card-text price">DESDE 170.000,00 ARS</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="main__secondary-card">
+      <div class="card">
         <div class="main__new-game">
           <p>NUEVO</p>
         </div>
-        <img src="./img/knight.jpg" class="img-fluid" alt="..." />
-        <div class="card">
-          <img
-            src="./img/icon-knight.png"
-            class="main__top-img-card"
-            alt="..."
-          />
-          <div class="main__card-body">
-            <p class="card-text">IMPERIOS III</p>
-            <h5 class="card-title">IMPERIOS III: Los imperios regresan</h5>
-            <p class="card-info">Incluye expansiones anteriores</p>
-            <h6 class="card-category">Estrategia</h6>
-            <p class="card-text price">DESDE 170.000,00 ARS</p>
-          </div>
+        <img src="./img/war.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p class="card-text">¿CARLOS Y DUKY?</p>
+          <h5 class="card-title">Carlos y Duky: Oferta especial</h5>
+          <p class="card-info">Carlos y duky nunca supe como se escribia</p>
+          <h6 class="card-category">Disparos</h6>
+          <p class="card-text price">75.000,00 ARS</p>
         </div>
       </div>
-      <div class="main__secondary-card">
-        <div class="card">
-          <div class="main__new-game">
-            <p>NUEVO</p>
-          </div>
-          <img src="./img/war.jpg" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <p class="card-text">¿CARLOS Y DUKY?</p>
-            <h5 class="card-title">Carlos y Duky: Oferta especial</h5>
-            <p class="card-info">Carlos y duky nunca supe como se escribia</p>
-            <h6 class="card-category">Disparos</h6>
-            <p class="card-text price">75.000,00 ARS</p>
-          </div>
+      <div class="card">
+        <div class="main__new-game">
+          <p>NUEVO</p>
         </div>
-        <div class="card">
-          <div class="main__new-game">
-            <p>NUEVO</p>
-          </div>
-          <img src="./img/cows.jpg" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <p class="card-text">SIMULADOR DE VACA</p>
-            <h5 class="card-title">Simulador de vaca: COMPRALO YA</h5>
-            <p class="card-info">
-              Quieres saber lo que se siente ser una vaca por un día? con este
-              maravilloso simulador lo podras saber por fin.
-            </p>
-            <h6 class="card-category">Simulador</h6>
-            <p class="card-text price">50.000,00 ARS</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="main__new-game">
-            <p>NUEVO</p>
-          </div>
-          <img src="./img/city.jpg" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <p class="card-text">CONSTRUYE TU CIUDAD</p>
-            <h5 class="card-title">CONSTRUYE TU CIUDAD: Expansión</h5>
-            <p class="card-info">Ya disponible</p>
-            <h6 class="card-category">Construcción</h6>
-            <p class="card-text price">20.000,00 ARS</p>
-          </div>
+        <img src="./img/cows.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p class="card-text">SIMULADOR DE VACA</p>
+          <h5 class="card-title">Simulador de vaca: COMPRALO YA</h5>
+          <p class="card-info">
+            Quieres saber lo que se siente ser una vaca por un día? con este
+            maravilloso simulador lo podras saber por fin.
+          </p>
+          <h6 class="card-category">Simulador</h6>
+          <p class="card-text price">50.000,00 ARS</p>
         </div>
       </div>
-    </main>
+      <div class="card">
+        <div class="main__new-game">
+          <p>NUEVO</p>
+        </div>
+        <img src="./img/city.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p class="card-text">CONSTRUYE TU CIUDAD</p>
+          <h5 class="card-title">CONSTRUYE TU CIUDAD: Expansión</h5>
+          <p class="card-info">Ya disponible</p>
+          <h6 class="card-category">Construcción</h6>
+          <p class="card-text price">20.000,00 ARS</p>
+        </div>
+      </div>
+    </div>
+  </main>
 
-    <footer class="bg-dark text-light p-4 pieDePagina">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h5>@Losantos Gonzalo - Fran Aguirre</h5>
-            <p>Dirección: 123 Calle Principal, Ciudad</p>
-            <p>Email: info@example.com</p>
-          </div>
-          <div class="col-md-6 text-right">
-            <h5>Síguenos en redes sociales</h5>
-          </div>
+  <footer class="bg-dark text-light p-4 pieDePagina">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5>@Losantos Gonzalo - Fran Aguirre</h5>
+          <p>Dirección: 123 Calle Principal, Ciudad</p>
+          <p>Email: info@example.com</p>
+        </div>
+        <div class="col-md-6 text-right">
+          <h5>Síguenos en redes sociales</h5>
         </div>
       </div>
-    </footer>
-    <script src="./js/main.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    </div>
+  </footer>
+  <script src="./js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

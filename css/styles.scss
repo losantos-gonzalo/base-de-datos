@@ -5,6 +5,141 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-main {
-    height: 100vh;
-  }
+body {
+    background-color: #15171e;
+
+    header {
+        width: calc(100vw -16px);
+        padding: 0 16px;
+
+        .navbar {
+            margin-bottom: 5vh;
+        }
+
+        .carousel {
+            height: 50vh;
+            margin-bottom: 5vh;
+
+            .carousel-inner {
+                border-radius: 4px;
+
+                .carousel-item {
+                    height: 100%;
+
+                    .d-block {
+                        height: 100%;
+                    }
+                }
+            }
+
+            .carousel-control-next {
+                width: 5%;
+            }
+
+            .carousel-control-prev {
+                width: 5%;
+            }
+        }
+    }
+
+    main {
+        width: calc(100vw -16px);
+        padding: 0 16px;
+
+        .main__title {
+            color: aliceblue;
+            font-size: x-large;
+        }
+
+        .main__primary-card {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            height: 80vh;
+            border-radius: 1%;
+            cursor: pointer;
+            margin-bottom: 5vh;
+
+            .img-fluid {
+                width: 68%;
+                height: 100%;
+                border-radius: 4px 0 0 4px;
+            }
+
+            .card {
+                position: relative;
+                width: 32%;
+                height: 100%;
+                --bs-card-border-width: none;
+
+                .main__top-img-card {
+                    border-radius: 0 4px 0 0;
+                    height: 60%;
+                    background-color: var(--card-background-color);
+                }
+
+                .main__card-body {
+                    height: 40%;
+                    background-color: var(--card-background-color);
+                    border-radius: 0 0 4px 0;
+                    padding: 16px;
+
+                    .card-text {
+                        color: var(--text-color);
+                    }
+
+                    .card-title {
+                        color: var(--text-color)
+                    }
+
+                    .card-info {
+                        color: orange;
+                    }
+
+                    .card-category {
+                        color: var(--text-color);
+                        font-size: small;
+                    }
+
+                    .price {
+                        font-weight: bold;
+                        position: absolute;
+                        bottom: 1.5em;
+                    }
+                }
+            }
+        }
+
+        .main__secondary-card {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 80vh;
+            border-radius: 1%;
+            cursor: pointer;
+            margin-bottom: 5vh;
+
+            .card {
+                position: relative;
+                width: 32%;
+                height: 100%;
+                --bs-card-border-width: none;
+            }
+
+            .main__new-game {
+                position: absolute;
+                top: 6px;
+                left: 6px;
+
+                p {
+                    font-weight: bold;
+                    padding: 0 6px;
+                    border-radius: 4px;
+                    background-color: red;
+                    color: white;
+                }
+            }
+        }
+    }
+}
