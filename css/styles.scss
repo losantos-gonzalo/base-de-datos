@@ -1,13 +1,13 @@
-:root {
-  --text-color: #d8d8d8;
-  --card-background-color: #2c2c2e;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --text-color: #d8d8d8;
+  --card-background-color: #2c2c2e;
 }
 
 body {
@@ -18,8 +18,25 @@ body {
     width: calc(100vw - 16px);
     padding: 0 16px;
 
-    .navbar {
-      margin-bottom: 5vh;
+    .header__navbar {
+      border: 2px solid #ff000015;
+      position: fixed;
+      z-index: 1;
+      width: 102%;
+      margin-left: -2rem;
+      height: 1px;
+      margin-top: -0.8rem;
+
+      .header__navbar__container {
+        border: 2px solid #410000;
+        padding: 1rem;
+        border-radius: 5px;
+        max-height: 4.3rem;
+
+        .header__nav__a {
+          color: white;
+        }
+      }
     }
 
     .carousel {
@@ -167,7 +184,7 @@ body {
           height: 45%;
           background-color: var(--card-background-color);
         }
-        
+
         .main__card-body {
           height: 40%;
           background-color: var(--card-background-color);
