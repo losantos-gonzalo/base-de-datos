@@ -1,3 +1,8 @@
+:root {
+  --text-color: #d8d8d8;
+  --card-background-color: #2c2c2e;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +10,160 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-main {
-  height: 100vh;
+body {
+  background-color: #15171e;
+}
+body header {
+  width: calc(100vw - 16px);
+  padding: 0 16px;
+}
+body header .navbar {
+  margin-bottom: 5vh;
+}
+body header .carousel {
+  height: 50vh;
+  margin-bottom: 5vh;
+}
+body header .carousel .carousel-inner {
+  height: 100%;
+  border-radius: 4px;
+}
+body header .carousel .carousel-inner .carousel-item {
+  height: 100%;
+}
+body header .carousel .carousel-inner .carousel-item .d-block {
+  height: 100%;
+}
+body header .carousel .carousel-control-next {
+  width: 5%;
+}
+body header .carousel .carousel-control-prev {
+  width: 5%;
+}
+body main {
+  width: calc(100vw - 16px);
+  padding: 0 16px;
+}
+body main .main__title {
+  color: aliceblue;
+  font-size: x-large;
+}
+body main .main__primary-card {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 80vh;
+  border-radius: 1%;
+  cursor: pointer;
+  margin-bottom: 5vh;
+}
+body main .main__primary-card .main__new-game {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+}
+body main .main__primary-card .main__new-game p {
+  font-weight: bold;
+  padding: 0 6px;
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+}
+body main .main__primary-card .img-fluid {
+  width: 68%;
+  height: 100%;
+  border-radius: 4px 0 0 4px;
+}
+body main .main__primary-card .card {
+  position: relative;
+  width: 32%;
+  height: 100%;
+  --bs-card-border-width: none;
+}
+body main .main__primary-card .card .main__top-img-card {
+  border-radius: 0 4px 0 0;
+  height: 60%;
+  background-color: var(--card-background-color);
+}
+body main .main__primary-card .card .main__card-body {
+  height: 40%;
+  background-color: var(--card-background-color);
+  border-radius: 0 0 4px 0;
+  padding: 16px;
+}
+body main .main__primary-card .card .main__card-body .card-text {
+  color: var(--text-color);
+}
+body main .main__primary-card .card .main__card-body .card-title {
+  color: var(--text-color);
+}
+body main .main__primary-card .card .main__card-body .card-info {
+  color: orange;
+}
+body main .main__primary-card .card .main__card-body .card-category {
+  color: var(--text-color);
+  font-size: small;
+}
+body main .main__primary-card .card .main__card-body .price {
+  font-weight: bold;
+  position: absolute;
+  bottom: 1.5em;
+}
+body main .main__secondary-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80vh;
+  border-radius: 1%;
+  cursor: pointer;
+  margin-bottom: 5vh;
+}
+body main .main__secondary-card .card {
+  background-color: var(--card-background-color);
+  position: relative;
+  width: 32%;
+  height: 100%;
+  --bs-card-border-width: none;
+}
+body main .main__secondary-card .card .main__new-game {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+}
+body main .main__secondary-card .card .main__new-game p {
+  font-weight: bold;
+  padding: 0 6px;
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+}
+body main .main__secondary-card .card .card-img-top {
+  border-radius: 4px 4px 0 0;
+  height: 45%;
+  background-color: var(--card-background-color);
+}
+body main .main__secondary-card .card .main__card-body {
+  height: 40%;
+  background-color: var(--card-background-color);
+  border-radius: 0 0 4px 0;
+  padding: 16px;
+}
+body main .main__secondary-card .card .main__card-body .card-text {
+  color: var(--text-color);
+}
+body main .main__secondary-card .card .main__card-body .card-title {
+  color: var(--text-color);
+}
+body main .main__secondary-card .card .main__card-body .card-info {
+  color: orange;
+}
+body main .main__secondary-card .card .main__card-body .card-category {
+  color: var(--text-color);
+  font-size: small;
+}
+body main .main__secondary-card .card .main__card-body .price {
+  font-weight: bold;
+  position: absolute;
+  bottom: 1.5em;
 }/*# sourceMappingURL=styles.css.map */
