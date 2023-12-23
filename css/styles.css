@@ -35,11 +35,48 @@ body header .carousel .carousel-inner .carousel-item {
 body header .carousel .carousel-inner .carousel-item .d-block {
   height: 100%;
 }
+body header .carousel .carousel-control-prev {
+  width: 5%;
+}
 body header .carousel .carousel-control-next {
   width: 5%;
 }
-body header .carousel .carousel-control-prev {
-  width: 5%;
+body header .carousel .carousel-handling {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+body header .carousel .carousel-handling .carousel-management svg {
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+  margin-right: 3px;
+}
+body header .carousel .carousel-handling .carousel-management svg:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+body header .carousel .carousel-handling .carousel-indicators {
+  display: flex;
+  align-items: center;
+  position: static;
+  margin: 0;
+}
+body header .carousel .carousel-handling .carousel-indicators button {
+  border-top: 0;
+  border-bottom: 0;
+  border-radius: 3px 3px;
+  height: 4px;
+  width: 40px;
+  transition: none;
+}
+body header .carousel .carousel-handling .carousel-indicators button:hover {
+  transition: opacity 0.6s ease;
+  opacity: 1;
+}
+body header .carousel .carousel-handling .carousel-indicators button.active {
+  background-color: #0074e0;
+  height: 6px;
 }
 body main {
   width: calc(100vw - 16px);
